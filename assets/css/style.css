@@ -358,6 +358,11 @@ li::marker{
   font-size: 11px;
 }
 }
+@media (max-width: 425px) {
+  #hero h2 {
+    font-size: 22px !important;
+  }
+  }
 /**
 * Mobile Navigation 
 */
@@ -899,6 +904,9 @@ section {
 @media (max-width: 425px) {
   .service-box{
   width: 100%;
+  }
+  .services{
+    margin-top:30px;
   }
 }
 @media (max-width: 425px) {
